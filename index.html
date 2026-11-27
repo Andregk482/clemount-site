@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#17158e"><meta name="description" content="CLEMOUNT — Engenharia, infraestrutura, redes, automação e tecnologia.">
+  <title>CLEMOUNT | Engenharia e Infraestrutura de TI</title>
+  <link rel="icon" href="assets/clemount-logo.jpg"><link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="#inicio" aria-label="Clemount início"><img src="assets/clemount-logo.jpg" alt="Logo CLEMOUNT"><span>CLEMOUNT<small>TECHNOLOGY & ENGINEERING</small></span></a>
+    <div class="workspace"><span class="status-dot"></span> AMBIENTE BETA <span class="beta">v0.8</span></div>
+    <nav id="mainNav" aria-label="Navegação principal">
+      <a class="nav-link active" href="#inicio" data-page="inicio"><i>⌂</i> Visão geral</a>
+      <div class="nav-label">EMPRESA</div>
+      <a class="nav-link" href="#empresa" data-page="empresa"><i>◈</i> Sobre & equipe</a>
+      <a class="nav-link" href="#servicos" data-page="servicos"><i>▦</i> Serviços e projetos</a>
+      <div class="nav-label">ENGENHARIA</div>
+      <a class="nav-link" href="#rack" data-page="rack"><i>▤</i> Rack Builder <span class="nav-tag">2D</span></a>
+      <a class="nav-link" href="#energia" data-page="energia"><i>ϟ</i> Power & Energy</a>
+      <a class="nav-link" href="#termica" data-page="termica"><i>♨</i> Thermal Analysis</a>
+      <a class="nav-link" href="#hardware" data-page="hardware"><i>▣</i> Hardware Analyzer</a>
+      <a class="nav-link" href="#redes" data-page="redes"><i>⌘</i> Network Designer</a>
+      <div class="nav-label">TECNOLOGIA</div>
+      <a class="nav-link" href="#automacao" data-page="automacao"><i>⤳</i> Automation Lab</a>
+      <a class="nav-link" href="#ia" data-page="ia"><i>✳</i> AI Lab</a>
+      <a class="nav-link" href="#cloud" data-page="cloud"><i>☁</i> Olimpo Cloud</a>
+      <a class="nav-link" href="#virtualizacao" data-page="virtualizacao"><i>▧</i> Virtualization Lab</a>
+      <div class="nav-label">OPERAÇÕES</div>
+      <a class="nav-link" href="#monitoramento" data-page="monitoramento"><i>◉</i> Monitoring Center</a>
+      <a class="nav-link" href="#seguranca" data-page="seguranca"><i>⬡</i> Security Center</a>
+      <a class="nav-link" href="#backup" data-page="backup"><i>⟲</i> Backup & Recovery</a>
+      <a class="nav-link" href="#cftv" data-page="cftv"><i>▣</i> CFTV</a>
+      <div class="nav-label">GESTÃO</div>
+      <a class="nav-link" href="#arquitetura" data-page="arquitetura"><i>⌬</i> IT Architecture</a>
+      <a class="nav-link" href="#bi" data-page="bi"><i>▥</i> Business Intelligence</a>
+      <a class="nav-link" href="#projetos" data-page="projetos"><i>☷</i> Project Management</a>
+      <a class="nav-link" href="#documentacao" data-page="documentacao"><i>▤</i> Documentation</a>
+      <a class="nav-link" href="#contato" data-page="contato"><i>✉</i> Contato</a>
+    </nav>
+    <div class="sidebar-bottom"><div class="mini-user"><div class="avatar">CT</div><div><b>Equipe CLEMOUNT</b><small>Administração do projeto</small></div><span>•••</span></div></div>
+  </aside>
+  <main class="main-content">
+    <header class="topbar"><button class="icon-btn mobile-menu" id="menuToggle" aria-label="Abrir menu">☰</button><div class="crumb"><span>Workspace</span><b>/</b><strong id="crumbName">Visão geral</strong></div><div class="top-actions"><span class="live-label"><span class="status-dot"></span> Ambiente de demonstração</span><button class="icon-btn" id="themeToggle" title="Alternar tema">◐</button><button class="top-avatar">CT</button></div></header>
+    <div class="page-wrap" id="pageContent"></div>
+    <footer class="footer"><span>© 2026 CLEMOUNT Technology & Engineering</span><span>Infraestrutura · Inovação · Performance</span></footer>
+  </main>
+</div>
+<div class="toast" id="toast" role="status"></div>
+<dialog id="modal"><div class="modal-head"><h3 id="modalTitle">Detalhes</h3><button class="icon-btn" id="modalClose">×</button></div><div id="modalBody"></div></dialog>
+<script src="js/app.js"></script>
+</body></html>
